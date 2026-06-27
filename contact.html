@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <a class="logo" href="index.html">Torbjørn Haaland</a>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="performances.html">Performances</a>
+        <a href="works.html">Works</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="section container">
+    <h1>Contact</h1>
+    <p>Send en melding for bestilling, premiereforespørsler eller samarbeid.</p>
+
+    <form id="contactForm" class="contact-form">
+      <label>
+        Navn
+        <input type="text" name="name" placeholder="Ditt navn" required />
+      </label>
+      <label>
+        E-post
+        <input type="email" name="email" placeholder="navn@eksempel.no" required />
+      </label>
+      <label>
+        Melding
+        <textarea name="message" rows="6" placeholder="Skriv meldingen din her..." required></textarea>
+      </label>
+      <button type="submit" class="button">Send melding</button>
+    </form>
+
+    <div class="contact-info">
+      <p>Du kan også sende e-post direkte til: <a href="mailto:hello@example.com">hello@example.com</a></p>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>© <span id="year"></span> Torbjørn Haaland.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
